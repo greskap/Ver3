@@ -224,11 +224,6 @@ sleep 2
 echo $domain > /etc/xray/domain
 systemctl restart xray
 systemctl restart nginx
-echo -e "[ ${green}INFO${NC} ] All finished... " 
-sleep 0.5
-echo ""
-read -n 1 -s -r -p "Press any key to back on menu"
-menu
 }
 export sem=$( curl -s https://raw.githubusercontent.com/Fikripps/permission/main/versions)
 export pak=$( cat /home/.ver)
@@ -251,15 +246,15 @@ echo -e "${BICyan} │ ${NC}${GR} VLESSS       =    $vla      ${NC}" "${BIYellow
 echo -e "${BICyan} │ ${NC}${GR} TROJAN       =    $tra      ${NC}" "${BIYellow} [AKUN]${NC}"
 echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "     ${BICyan}[${BIWhite}01${BICyan}] SSH     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"    "  ${BICyan}[${BIWhite}06${BICyan}] TRIALL      ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │"
-echo -e "     ${BICyan}[${BIWhite}02${BICyan}] VMESS   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"    "  ${BICyan}[${BIWhite}07${BICyan}] BACKUP      ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │"
-echo -e "     ${BICyan}[${BIWhite}03${BICyan}] VLESS   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"    "  ${BICyan}[${BIWhite}08${BICyan}] ADD-HOST    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │"
-echo -e "     ${BICyan}[${BIWhite}04${BICyan}] TROJAN  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"    "  ${BICyan}[${BIWhite}09${BICyan}] GEN SSL     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │"
-echo -e "     ${BICyan}[${BIWhite}05${BICyan}] SETING  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"    "  ${BICyan}[${BIWhite}10${BICyan}] REBOOT      ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │${NC}"
+echo -e "${BICyan} │${NC}    ${BICyan}[${BIWhite}01${BICyan}] SSH     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"    "  ${BICyan}[${BIWhite}06${BICyan}] TRIALL      ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "${BICyan}  │"
+echo -e "${BICyan} │${NC}    ${BICyan}[${BIWhite}02${BICyan}] VMESS   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"    "  ${BICyan}[${BIWhite}07${BICyan}] BACKUP      ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "${BICyan}  │"
+echo -e "${BICyan} │${NC}    ${BICyan}[${BIWhite}03${BICyan}] VLESS   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"    "  ${BICyan}[${BIWhite}08${BICyan}] ADD-HOST    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "${BICyan}  │"
+echo -e "${BICyan} │${NC}    ${BICyan}[${BIWhite}04${BICyan}] TROJAN  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"    "  ${BICyan}[${BIWhite}09${BICyan}] GEN SSL     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "${BICyan}  │"
+echo -e "${BICyan} │${NC}    ${BICyan}[${BIWhite}05${BICyan}] SETING  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"    "  ${BICyan}[${BIWhite}10${BICyan}] REBOOT      ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "${BICyan}  │${NC}"
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
 echo -e "         ${BICyan}┌─────────────────────────────────────┐${NC}"
 echo -e "         ${BICyan}│  Author         : GRESSKAP${NC}"
-echo -e           ${BICyan}│  User           : ${NC}\033[1;36m$Name \e[0m"
+echo -e "         ${BICyan}│  User           : ${NC}\033[1;36m$Name \e[0m"
 echo -e "         ${BICyan}│  Expiry script  : ${NC}${BIYellow}$Exp${NC} Days"
 echo -e "         ${BICyan}└─────────────────────────────────────┘${NC}"
 echo
