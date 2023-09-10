@@ -253,7 +253,7 @@ echo -e "${BICyan} │${NC}    ${BICyan}[${BIWhite}04${BICyan}] TROJAN  ${BICyan
 echo -e "${BICyan} │${NC}    ${BICyan}[${BIWhite}05${BICyan}] SETING  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"    "   ${BICyan}[${BIWhite}10${BICyan}] REBOOT      ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"   "${BICyan}  │${NC}"
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
 echo -e "         ${BICyan}┌─────────────────────────────────────┐${NC}"
-echo -e "         ${BICyan}│  Author         : GRESSKAP${NC}"
+echo -e "         ${BICyan}│  Author         : GRESKAP${NC}"
 echo -e "         ${BICyan}│  User           : ${NC}\033[1;36m$Name \e[0m"
 echo -e "         ${BICyan}│  Expiry script  : ${NC}${BIYellow}$Exp${NC} Days"
 echo -e "         ${BICyan}└─────────────────────────────────────┘${NC}"
