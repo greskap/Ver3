@@ -229,7 +229,7 @@ export sem=$( curl -s https://raw.githubusercontent.com/Fikripps/permission/main
 export pak=$( cat /home/.ver)
 IPVPS=$(curl -s ipinfo.io/ip )
 clear
-figlet                                            'G R E S K A P' | lolcat
+figlet                                            'F R E E D O M' | lolcat
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "${BICyan} │                  ${BIWhite}${UWhite}Server Informations${NC}"
 echo -e "${BICyan} │"
@@ -253,7 +253,7 @@ echo -e "${BICyan} │${NC}    ${BICyan}[${BIWhite}04${BICyan}] TROJAN  ${BICyan
 echo -e "${BICyan} │${NC}    ${BICyan}[${BIWhite}05${BICyan}] SETING  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"    "   ${BICyan}[${BIWhite}10${BICyan}] REBOOT      ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"   "${BICyan}  │${NC}"
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
 echo -e "         ${BICyan}┌─────────────────────────────────────┐${NC}"
-echo -e "         ${BICyan}│  Author         : GRESKAP${NC}"
+echo -e "         ${BICyan}│  Author         : FREEDOM${NC}"
 echo -e "         ${BICyan}│  User           : ${NC}\033[1;36m$Name \e[0m"
 echo -e "         ${BICyan}│  Expiry script  : ${NC}${BIYellow}$Exp${NC} Days"
 echo -e "         ${BICyan}└─────────────────────────────────────┘${NC}"
