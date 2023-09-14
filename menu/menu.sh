@@ -229,7 +229,7 @@ export sem=$( curl -s https://raw.githubusercontent.com/Fikripps/permission/main
 export pak=$( cat /home/.ver)
 IPVPS=$(curl -s ipinfo.io/ip )
 clear
-figlet                                            'G R E S K A P . N E T' | lolcat
+figlet                                            'G R E S K A P.net' | lolcat
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "${BICyan} │                  ${BIWhite}${UWhite}Server Informations${NC}"
 echo -e "${BICyan} │"
