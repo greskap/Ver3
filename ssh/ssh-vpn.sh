@@ -19,6 +19,13 @@ organizationalunit=none
 commonname=none
 email=adamspx17@gmail.com
 
+Getting websocket ssl stunnel
+wget -q -O /usr/local/bin/ws-stunnel "https://raw.githubusercontent.com/joexmaster1/niam/main/tools/ws-stunnel"
+chmod +x /usr/local/bin/ws-stunnel
+
+# Installing Service Ovpn Websocket
+cat > /etc/systemd/system/ws-stunnel.service << END
+
 # simple password minimal
 curl -sS https://raw.githubusercontent.com/artanodrop/v4/main/ssh/password | openssl aes-256-cbc -d -a -pass pass:scvps07gg -pbkdf2 > /etc/pam.d/common-password
 chmod +x /etc/pam.d/common-password
