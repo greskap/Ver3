@@ -4,6 +4,8 @@ echo "Checking VPS"
 aureb=$(cat /home/re_otm)
 clear
 echo " "
+echo "===============-[ SCRIPT D ZIKRA VPN ]-=============="
+echo ""
 echo "------------------------------------------------------------"
 echo ""
 echo ""
@@ -42,6 +44,8 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
+echo "==========-[ Script Created By D-ZIKRA TUNNEL ]-==========="
+echo -e ""
 echo ""
 read -n 1 -s -r -p "Press any key to back on menu"
 menu
